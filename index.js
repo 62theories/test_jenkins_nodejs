@@ -4,7 +4,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-    return res.send(`My wealth and treasures? If you want it, I'll let you have it. Look for it, I left all of it at that place!`)
+    return res.send(`My wealth and treasures?`)
 })
 
 app.get('/test', (req, res) => {
