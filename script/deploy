@@ -1,0 +1,5 @@
+ #!/bin/sh
+ cd ~/test_jenkins_nodejs
+ git pull
+ npm install
+ pm2 start index.js
