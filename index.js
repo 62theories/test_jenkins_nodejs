@@ -6,7 +6,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-    return res.send(`My wealth and treasures?`)
+    return res.send(`My wealth and treasures? test`)
 })
 
 app.get('/test', (req, res) => {
