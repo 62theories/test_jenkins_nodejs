@@ -8,6 +8,7 @@ const app = express()
 app.get('/', (req, res) => {
     return res.send(`My wealth and treasures? test`)
 })
+//test
 
 app.get('/test', (req, res) => {
     return res.send(`test test`)
