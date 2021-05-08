@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh root@139.59.236.234 <<EOF
+ssh -t -t root@139.59.236.234 <<EOF
  cd ~/test_jenkins_nodejs
  git pull
  echo 'PORT=5001' > .env
